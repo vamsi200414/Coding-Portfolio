@@ -24,7 +24,7 @@ public class Main
 		        }
 		    }
 		}
-		String result = new String(c);
+		String result = new  String(c);
 		System.out.print(result);
 	}
 }
