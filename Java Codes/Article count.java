@@ -9,7 +9,7 @@ public class Main {
         String s = abc.nextLine(); // Reading the entire input line as a string
 
         // Splitting the input string into words based on spaces
-        String[] splitString = s.split(" "); 
+        String[] splitString = s.toLowerCase().replaceAll("[^a-z]", " ").split("\\s+"); 
         
         int count = 0; // Initializing a counter to track the number of articles
 
